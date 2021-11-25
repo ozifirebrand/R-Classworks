@@ -1,0 +1,17 @@
+---
+title: "firstRFolder"
+author: "Ozi"
+date: "11/25/2021"
+output: pdf_document
+---
+
+```{r}
+
+34 + 5
+```
+
+```{r}
+
+x <- {1: 235 }
+x
+```
