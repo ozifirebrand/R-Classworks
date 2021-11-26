@@ -60,4 +60,12 @@ emp.data$emp_id
 emp.data$emp_name
 emp.data$emp_name[3]
 ```
+
+```{r}
+x <- 5:7
+names(x)
+
+names(x)<-c("five", "six", "seven")
+names(x)
+x
 ```
