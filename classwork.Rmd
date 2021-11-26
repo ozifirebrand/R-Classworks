@@ -69,3 +69,27 @@ names(x)<-c("five", "six", "seven")
 names(x)
 x
 ```
+
+```{r}
+x<- matrix(1:6, 2,3)
+x[2,3]
+
+```
+
+
+```{r}
+x<-matrix(1:12, 3, 4)
+x
+
+x[2:3, 2:4]
+
+```
+```{r}
+x<- matrix(1:6, 2,3)
+x
+x[1,2]
+
+x[1, 2, drop= FALSE]
+x[1,,drop=FALSE]
+x[,2, drop=FALSE]
+```
