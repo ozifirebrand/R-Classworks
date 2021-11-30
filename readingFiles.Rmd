@@ -1,0 +1,17 @@
+---
+title: "readingFiles"
+author: "Ozi"
+date: "11/30/2021"
+output: pdf_document
+---
+
+```{r}
+
+file <- read.csv("~/Fertility (1).csv", sep = ",")
+file
+```
+
+```{r}
+
+
+```
