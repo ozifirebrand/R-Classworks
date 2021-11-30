@@ -1,4 +1,4 @@
-94dee1810339d6b6fcdaa331184e4ce5 *DESCRIPTION
+70c9a7ae395d408f9929c14a84d3ff87 *DESCRIPTION
 e03ea601d9617e8a9a85a27145eddae5 *INDEX
 5174dfc514f0941d2edd4b0b4c9941dd *LICENSE
 b7121a890b3941417d95a98c180ee828 *Meta/Rd.rds
@@ -6,7 +6,7 @@ fb7fdc49e6f7592b59f7a8109e5c0689 *Meta/features.rds
 274279173b61ae7f93934346a12b1c7f *Meta/hsearch.rds
 27b774eb9282e925df8b607d968cdef5 *Meta/links.rds
 68dd9e1ac8061bcfba8df88171716536 *Meta/nsInfo.rds
-e842ba8018bbf2aa0a1d2357028763ee *Meta/package.rds
+efd9a1e8986e5beb9753e3712fdc2004 *Meta/package.rds
 2ee2f28529932b65a636bdbb64212ba0 *Meta/vignette.rds
 95a41032c96c29ff675f7d6bef26e131 *NAMESPACE
 f05587fb1c6e5292dd8f71b9e9504585 *NEWS.md
@@ -35,9 +35,9 @@ c3978703d8f40f2679795335715e98f4 *help/figures/lifecycle-experimental.svg
 6902bbfaf963fbc4ed98b86bda80caa2 *help/figures/lifecycle-soft-deprecated.svg
 53b3f893324260b737b3c46ed2a0e643 *help/figures/lifecycle-stable.svg
 d519c3283da75955a8cbaec351380d28 *help/figures/lifecycle-superseded.svg
-fa401ed8ce83036733d892d071a2c139 *help/lifecycle.rdb
-1491ea2c1bbd04f45558226dd729eca7 *help/lifecycle.rdx
+482fb192ffe6a57af572a017ddd67b59 *help/lifecycle.rdb
+73b0e1cf1802c09994d2b6b8de691dc3 *help/lifecycle.rdx
 155bedac3338ac2404018d81751c5b18 *help/macros/lifecycle.Rd
-f14f2a517b47eaac2dfee9c66128ef04 *help/paths.rds
+9ee41eb22365859465035748e0071b59 *help/paths.rds
 a4587d55a942dc6a9d72c000bc211464 *html/00Index.html
 b6763e6916890c631fdc3f2643803b1a *html/R.css

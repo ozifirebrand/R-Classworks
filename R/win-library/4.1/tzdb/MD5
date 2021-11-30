@@ -1,4 +1,4 @@
-60c4725bd845a09118203d17cab8924f *DESCRIPTION
+2635816fa846dd9ad89149aaed112a3b *DESCRIPTION
 9f714b1fc5d3c4da0949b67403b30853 *INDEX
 39c808376c4051a18a42033f78e85b41 *LICENSE
 6904667565b511c560411a2038882151 *Meta/Rd.rds
@@ -6,7 +6,7 @@ fb7fdc49e6f7592b59f7a8109e5c0689 *Meta/features.rds
 6b8354ff54855511309ceb4fb1fbd335 *Meta/hsearch.rds
 7abee2fc9063c51efa337fb86740d7a6 *Meta/links.rds
 49170fcaacd1b220784a13b6c8a4c6f2 *Meta/nsInfo.rds
-dd8cd7e38d5f0c2fee2d840e1c403ce3 *Meta/package.rds
+8d0a8f0beab01f7072af1b6aea899577 *Meta/package.rds
 670988a98f1e943dc85845f5eb62f507 *NAMESPACE
 e24da95e5c711baa6e0ee04bc296bfc2 *NEWS.md
 d6c68f1fe41ced6e98a766a3757313da *R/tzdb
@@ -14,9 +14,9 @@ fb4a5b78860ecfb66495c538ee40c36d *R/tzdb.rdb
 587b8ab883f570548b1830474da0854c *R/tzdb.rdx
 47ef25333c9d94558d085fa137d14c67 *help/AnIndex
 33dbc573e37b6179d0d68d87952c78c5 *help/aliases.rds
-3b4ee80ef953ccd7195d8ed2f2ab43a8 *help/paths.rds
-cc5110618e960dd4163da88c1a3e9143 *help/tzdb.rdb
-4de48deca9f11e6355fb3e47c1fff99f *help/tzdb.rdx
+8e7added5a9ecd53841848d0e87bdf99 *help/paths.rds
+a7cb71c64fd6a46e3293f4fd52346591 *help/tzdb.rdb
+94e2e953cdaafd7677e5ba691de1d759 *help/tzdb.rdx
 947d7883935fba7d1a0508ad0e6a594d *html/00Index.html
 b6763e6916890c631fdc3f2643803b1a *html/R.css
 17782665d3a7dfe6aa7a03b5a605abf8 *include/date/chrono_io.h
@@ -39,9 +39,9 @@ b79b797780618c75e6987da2722c1520 *include/tzdb/ptz.h
 9519a720bd6d0d0b26dfa91c9b6d82c1 *include/tzdb/tz.h
 28b669883ac0a3c475572efc228e8e03 *include/tzdb/tzdb.h
 f1cb7fa1798678249e65754fb4e69135 *libs/i386/symbols.rds
-bed0bffd3999becccb2343aef3af2b29 *libs/i386/tzdb.dll
+55bdb3112a7c693bb945d2135f654dd1 *libs/i386/tzdb.dll
 df3e6725cd9ec686cbd511d54813763f *libs/x64/symbols.rds
-8a692d002bf0da44a2b20fda4ecc2c7e *libs/x64/tzdb.dll
+027fe9fa250aa505123c0dfa7efff0d4 *libs/x64/tzdb.dll
 47c9602c66c74859b4d8570e19d9dcd4 *tzdata/CONTRIBUTING
 c679c9d6b02bc2757b3eaf8f53c43fba *tzdata/LICENSE
 6800236b6dd15bab4bcd3af92ba8075b *tzdata/Makefile

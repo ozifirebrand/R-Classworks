@@ -1,4 +1,4 @@
-55d8049d1a21413e5b1ae9d7e9c9af97 *DESCRIPTION
+2c7c39dda3e18b7f1804794982bdb450 *DESCRIPTION
 675c2882f26502228468761de3bd7fd9 *INDEX
 92a339e28dcd9a2362c5dcf20387d5e4 *LICENSE
 7f95f7038d7c3103ce38867e8c65c0b2 *Meta/Rd.rds
@@ -6,7 +6,7 @@ fb7fdc49e6f7592b59f7a8109e5c0689 *Meta/features.rds
 39666b93c6ea64c7aa27896c62fffb12 *Meta/hsearch.rds
 86a12cb023416d8a9dfa0eb4787a3ef8 *Meta/links.rds
 4e8790ec7fc9bc0ff0db4b94fbbf20e2 *Meta/nsInfo.rds
-435e67b1b4a4901f220939d5a776629c *Meta/package.rds
+04c96a8faaa4bfae15655ba6e54aad67 *Meta/package.rds
 fa6f93f28ce2dc11fbc6ea7ced3c078b *Meta/vignette.rds
 181390224b0751104ec490b388d80af4 *NAMESPACE
 4176238893b445a388fd18da4ee58bae *NEWS.md
@@ -36,12 +36,12 @@ fd76bdc36ee6aa4ea7af16947745b2b4 *help/aliases.rds
 a1b8c987c676c16af790f563f96cbb1f *help/figures/lifecycle-deprecated.svg
 1c1fe7a759b86dc6dbcbe7797ab8246c *help/figures/lifecycle-superseded.svg
 dce2d7caa795abd627854366dc31594f *help/figures/logo.png
-791b82f3f06494b51c0b5cda05a9791e *help/paths.rds
-c75637ace3d1f296f03b59cb5ab72e06 *help/readr.rdb
-7243841740b388f8e26874b11f42f3f0 *help/readr.rdx
+1833b10499d43e1b4571a2ea0a89bd60 *help/paths.rds
+07a4025422d47dae743310265eef9833 *help/readr.rdb
+c3af3f4e5437fa74742d3372c7008576 *help/readr.rdx
 db8952b44fe081c41d99ba3880712e72 *html/00Index.html
 b6763e6916890c631fdc3f2643803b1a *html/R.css
-9b5ea48c3c18f8f9035d5df0d1429598 *libs/i386/readr.dll
+a78f28d546ccd124bfdcdc36fdc2e99e *libs/i386/readr.dll
 415286ee583e87f7e2e9f727da98647a *libs/i386/symbols.rds
-2e7102bbe5f422a61994b66c94cde8e0 *libs/x64/readr.dll
+217f6c10058ab42105d9cea5b167fdba *libs/x64/readr.dll
 289d0020249b7399352fd503e7b7816a *libs/x64/symbols.rds
