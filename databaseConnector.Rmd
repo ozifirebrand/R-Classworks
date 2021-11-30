@@ -1,0 +1,12 @@
+---
+title: "databaseConnection"
+author: "Ozi"
+date: "11/30/2021"
+output: pdf_document
+---
+
+```{r}
+host<- "courses.csrrinzqubik.us-east-1.rds.amazonaws.com"
+connect<-dbConnect(RMySQL::MySQL(), dbname="tweater",
+                   host = host, port= 3306, user = "student", password="datacamp")
+```
