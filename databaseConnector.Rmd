@@ -83,7 +83,7 @@ boxplot(Price~Status, data = house, main="Price")
 plot(house$SQFT, house$Price, xlab="SQFT", ylab="Price", main="ScatterPlot of Price and SQFT")
 ```
 ```{r}
-
+hist(house$Price,xlab = "Price", main="Histogram")
 ```
 
 ```{r}
