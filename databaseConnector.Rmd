@@ -9,4 +9,89 @@ output: pdf_document
 host<- "courses.csrrinzqubik.us-east-1.rds.amazonaws.com"
 connect<-dbConnect(RMySQL::MySQL(), dbname="tweater",
                    host = host, port= 3306, user = "student", password="datacamp")
+
+
+```
+
+```{r}
+tables<- dbListTables(connect)
+tables
+```
+```{r}
+users <- dbReadTable(connect, "users")
+users
+```
+
+```{r}
+write.csv(comments, "comments.csv")
+```
+
+```{r}
+host<- "car-simulation-station.c9az8e0qjbgo.us-east-1.rds.amazonaws.com"
+connect <- dbConnect(RMySQL::MySQL(),dbname="car_simulation_station",
+                     host= host, port=3306, user="datacamp_user",
+                     password="learn tabular data for fun and profit")
+```
+```{r}
+tables<- dbListTables(connect)
+tables
+```
+
+```{r}
+home_cleaned <- dbReadTable(connect, "adhd_home_cleaned")
+home_cleaned
+```
+
+
+```{r}
+
+report_cleaned <- dbReadTable(connect, "bapq_father_self_report_cleaned")
+report_cleaned
+```
+```{r}
+scq_cleaned<-dbReadTable(connect, "lifetime_scq_cleaned")
+scq_cleaned
+```
+
+```{r}
+write.csv(home_cleaned, "home_cleaned.csv")
+```
+
+```{r}
+write.csv(report_cleaned, "report_cleaned.csv")
+
+```
+
+
+```{r}
+write.csv(scq_cleaned, "scq_cleaned.csv")
+
+```
+
+
+```{r}
+bcancer<- read.csv("https://raw.githubusercontent.com/mGalarnyk/Python_Tutorials/master/Kaggle/BreastCancerWisconsin/data/data.csv", header=TRUE)
+
+str(bcancer)
+```
+
+
+```{r}
+house<- read.csv("~/house.csv", sep=",")
+boxplot(Price~Status, data = house, main="Price")
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
 ```
