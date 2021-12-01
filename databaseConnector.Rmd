@@ -87,14 +87,52 @@ hist(house$Price,xlab = "Price", main="Histogram")
 ```
 
 ```{r}
+child_data <- read_sav("~/child_data.sav")
+child_data
+```
+
+
+```{r}
+cancer_info <- read.csv("~/cancer.csv", sep =",")
+cancer_info
 
 ```
 
 
 ```{r}
+sum(is.na(child_data))
+```
+
+
+```{r}
+sum(is.na(cancer_info))
+```
+
+
+```{r}
+
+boxplot(MEM_SPAN~AGE, data = child_data, main="Age")
+plot(child_data$AGE, child_data$MEM_SPAN, xlab="AGE", ylab="MEM_SPAN", main="ScatterPlot of Age and IQ")
+```
+```{r}
+library(readxl)
+library(tidyverse)
+```
+
+```{r}
+mbta1<- read_excel("~/mbta.xlsx", sheet =1, skip = 1, range= cell_cols(2:60))
+mbta1
+```
+
+```{r}
+mbta<- mbta1%>% gather(`2007-01`:`2011-10`, key = "year", value = "passenger")
+mbta
 
 ```
 
+```{r}
+
+```
 
 ```{r}
 
