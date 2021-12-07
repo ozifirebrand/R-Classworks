@@ -9,13 +9,16 @@ output: pdf_document
 dt <- read.csv("~/house.csv")
 t.test(dt$Price, mu=3000)
 ```
-
-
 ```{r}
-
+ct <- read.csv("~/cancer.csv", header = T)
+t.test(ct$area_se~ct$diagnosis)
 ```
 
 
 ```{r}
+x <- c(239, 170, 182, 143, 141, 170, 160, 154, 185, 130)
+y <- c(362, 343, 330, 340, 314, 567, 292, 439, 312, 292)
 
+paired_1 <- t.test(x,y, paired = TRUE)
+paired_1
 ```
