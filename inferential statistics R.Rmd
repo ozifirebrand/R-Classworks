@@ -1,0 +1,21 @@
+---
+title: "inferential statistics"
+author: "Ozi"
+date: "12/7/2021"
+output: pdf_document
+---
+
+```{r}
+dt <- read.csv("~/house.csv")
+t.test(dt$Price, mu=3000)
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+
+```

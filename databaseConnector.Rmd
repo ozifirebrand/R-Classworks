@@ -131,6 +131,22 @@ mbta
 ```
 
 ```{r}
+mbta2<- mbta%>% separate(year, into = c("year", "month"))
+mbta2
+```
+
+
+```{r}
+dta<- read_excel("~/mbta.xlsx", skip = 1, range = cell_cols(2:60))
+
+View(dta)
+```
+
+
+```{r}
+dta_tidy <- dta %>% gather(`2007-01` : `2011-10`, key = "year" , value = "passengers")
+
+View(dta_tidy)
 
 ```
 
