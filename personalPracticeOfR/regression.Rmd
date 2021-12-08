@@ -29,17 +29,21 @@ summary(ml)
 
 
 ```{r}
+house_data <- read.csv("~/house.csv")
+house_data
+```
 
+
+```{r}
+plot(house_data$Price~house_data$Bedrooms+house_data$SQFT+ house_data$Bedrooms +house_data$Price.SQFT + house_data$Bathrooms, main = "Scatter plot of price against variables")
 ```
 
 
 ```{r}
 
-```
+ml <- lm(house_data$Price~house_data$Bedrooms + house_data$Bathrooms + house_data$SQFT + house_data$Status)
 
-
-```{r}
-
+summary(ml)
 ```
 
 
