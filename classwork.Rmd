@@ -15,6 +15,7 @@ output: pdf_document
 x <- {1: 235 }
 x
 ```
+
 ```{r}
 
 x <- 1:3
