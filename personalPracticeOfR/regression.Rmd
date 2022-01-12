@@ -48,5 +48,6 @@ summary(ml)
 
 
 ```{r}
+boxplot(house_data$Price~house_data$SQFT +house_data$Bathrooms +house_data$Bedrooms +house_data$Price.SQFT, main = "Breast cancer by continent. Mean is black dot", xlab = "continents", ylab = "new cases per 100, 000 residents", col = rainbow(4))
 
 ```
