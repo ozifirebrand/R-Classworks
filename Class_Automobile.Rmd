@@ -1,0 +1,52 @@
+---
+title: "Automobile"
+author: "Ozi"
+date: "1/11/2022"
+output: pdf_document
+---
+
+```{r}
+
+library(caTools)
+library(randomForest)
+library(caret)
+
+```
+
+```{r}
+auto_mobile <- read.csv("~/Automobile_data.csv", sep = ",", header = T)
+auto_mobile
+```
+
+```{r}
+dt <- sample.split(auto_mobile, SplitRatio = 0.75)
+
+train <- subset(auto_mobile, dt == T)
+test <- subset(auto_mobile, dt == F)
+
+str(test)
+```
+
+```{r}
+train$num.of.doors <- factor(train$num.of.doors)
+train$num.of.doors
+```
+
+
+```{r}
+set.seed(51)
+model <- train(num.of.doors ~ peak.rpm + wheel.base + engine.size + horsepower + highway.mpg + price, data = train, method = 'rf', trControl=trainControl(method='cv', number=7))
+model
+```
+
+```{r}
+summary(test)
+```
+
+
+```
+
+```{r}
+# use a random forest model select 7 best variables needed for analysis and prediction car prices
+
+```
