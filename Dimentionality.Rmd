@@ -1,0 +1,35 @@
+---
+title: "US arrests"
+author: "Ozi"
+date: "1/12/2022"
+output: pdf_document
+---
+
+```{r}
+
+
+data("USArrests")
+
+head(USArrests)
+```
+
+```{r}
+
+results <- prcomp(USArrests, scale = TRUE)
+
+results$rotation <- -1*results$rotation
+
+results$rotation
+
+```
+```{r}
+
+results$x <- -1*results$x
+
+head(results$x)
+```
+
+```{r}
+
+biplot(results, scale = 0)
+```
