@@ -1,0 +1,107 @@
+---
+title: "inferential statistics"
+author: "Ozi"
+date: "12/7/2021"
+output: pdf_document
+---
+
+```{r}
+dt <- read.csv("~/house.csv")
+t.test(dt$Price, mu=3000)
+```
+
+
+```{r}
+ct <- read.csv("~/cancer.csv", header = T)
+t.test(ct$area_se~ct$diagnosis)
+```
+
+
+```{r}
+x <- c(239, 170, 182, 143, 141, 170, 160, 154, 185, 130)
+y <- c(362, 343, 330, 340, 314, 567, 292, 439, 312, 292)
+
+paired_1 <- t.test(x,y, paired = TRUE)
+paired_1
+```
+
+
+```{r}
+data <- read.csv("~/master.csv")
+data
+```
+
+
+```{r}
+dim(data)
+```
+
+
+```{r}
+head(data, 10)
+```
+
+
+```{r}
+ct <- table(data$age, data$suicides.100k.pop)
+chisq.test(ct)
+```
+
+
+```{r}
+library(ggplot2)
+cancer_anova <- read.csv("~/gapC.csv", sep = ",", header = T)
+cancer_anova
+```
+
+
+```{r}
+str(cancer_anova)
+```
+
+
+```{r}
+means <- round(tapply(cancer_anova$breastcancer, cancer_anova$continent, mean), digits = 2)
+```
+
+
+```{r}
+plotmeans(cancer_anova$breastcancer~cancer_anova$continent, digits= 2, ccol ="red", mean.labels = T, main = "Plot of breast cancer means by continent")
+```
+
+
+```{r}
+boxplot(cancer_anova$breastcancer~cancer_anova$continent, main = "Breast cancer by continent. Mean is black dot", xlab = "continents",
+        ylab = "new cases per 100, 000 residents", col = rainbow(7))
+
+points(means, col= "black", pch=18)
+```
+
+
+
+```{r}
+aov_cont <- aov(cancer_anova$breastcancer~cancer_anova$continent)
+summary(aov_cont)
+```
+
+
+
+```{r}
+tuk<- TukeyHSD(aov_cont)
+plot(tuk)
+```
+
+
+
+```{r}
+size <- c(3, 4, 5, 6, 4, 5, 6, 7, 7, 8, 9,10)
+pop <- c("A", "A", "A", "A", "B", "B", "B", "B", "C", "C", "C", "C")
+means <- round(tapply(size, pop, mean), digits = 2)
+```
+
+```{r}
+boxplot(size~pop, main = "Size of fish and pop relationship", xlab = "size",
+        ylab = "pop of fish per population", col = rainbow(2))
+
+points(means, col= "black", pch=18)
+```
