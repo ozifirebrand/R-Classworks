@@ -15,7 +15,7 @@ library("xlsx")
 
 ```{r}
 
-interestrate_data <-read.xlsx("~/world-lendinginterestrate.xls", sheetIndex =  1, header = FALSE)
+interestrate_data <-read.xlsx("~/world-lendinginterestrate.xls", sheetIndex =  1, header = TRUE)
 
 interestrate_data
 
@@ -23,5 +23,13 @@ interestrate_data
 
 ```{r}
 
-interestrate_data[c(131), c(1:53)]
+nigeria_interestrate <- interestrate_data[c(130), c(1:53)]
+
+nigeria_interestrate
+```
+
+
+```{r}
+
+tsData <- ts(nigeria_interestrate[2:35:2], start = c())
 ```
