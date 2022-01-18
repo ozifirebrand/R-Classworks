@@ -1,0 +1,11 @@
+---
+title: "Time series Classwork"
+author: "Ozi"
+date: "1/18/2022"
+output: pdf_document
+---
+
+```{r}
+
+
+```
