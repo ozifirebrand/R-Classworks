@@ -1,0 +1,19 @@
+---
+title: "Exploring and preparing data"
+author: "Ozi"
+date: "1/17/2022"
+output: pdf_document
+---
+
+```{r}
+
+titanic_train <- read.csv("~/train.csv")
+titanic_train
+str(titanic_train)
+```
+
+```{r}
+summary(titanic_train)
+
+
+```
