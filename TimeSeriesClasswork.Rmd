@@ -6,6 +6,22 @@ output: pdf_document
 ---
 
 ```{r}
+library("fUnitRoots")
+library('lmtest')
+library("forecast")
+library("FitAR")
+library("xlsx")
+```
 
+```{r}
 
+interestrate_data <-read.xlsx("~/world-lendinginterestrate.xls", sheetIndex =  1, header = FALSE)
+
+interestrate_data
+
+```
+
+```{r}
+
+interestrate_data[c(131), c(1:53)]
 ```
